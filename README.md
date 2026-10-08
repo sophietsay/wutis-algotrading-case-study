@@ -16,7 +16,7 @@ This notebook (`STsay_strategy v4.ipynb`) replicates and extends the strategy of
 
 1. Install the dependencies:
    ```
-   pip install numpy pandas matplotlib plotly statsmodels pyarrow alpaca-py
+   pip install numpy pandas matplotlib statsmodels pyarrow alpaca-py
    ```
    `alpaca-py` is needed only to download the data.
 2. If `spy_1min.parquet` is not in the working directory, set the environment variables `ALPACA_API_KEY` and `ALPACA_SECRET_KEY`. A free Alpaca paper-trading account is sufficient. The keys are never written into the notebook.
